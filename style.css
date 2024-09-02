@@ -23,4 +23,10 @@
     position: relative;
     top: 120px;
     left: 550px;
+    animation: cactusMovement 2s linear infinite;
+}
+
+@keyframes cactusMovement{
+    from {left: 550px;}
+    to {left: 0px;}
 }
